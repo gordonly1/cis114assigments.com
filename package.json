@@ -4,7 +4,7 @@
   "description": "Hasan Sefa Ozalp",
   "main": "index.html",
   "scripts": {
-    "save": "git add . && git commit -m '💖' && git push -u origin master"
+    "save": "git add . && git commit -m '💖' && git push -u origin main"
   },
   "keywords": [],
   "author": "Hasan Sefa Ozalp",
