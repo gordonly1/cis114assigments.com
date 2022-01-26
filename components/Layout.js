@@ -7,7 +7,6 @@ const Layout = ({ children, title, description }) => {
   return (
     <div >
       <Head>
-        <meta charset="UTF-8" />
         <title>{title}</title>
         <meta property="description" content={description} />
       </Head>
