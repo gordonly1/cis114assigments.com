@@ -4,7 +4,7 @@ import ComingSoon from '../components/ComingSoon'
 
 export default function Home() {
   return (
-    <Layout title='Homework 2' description='This will be the homework 2.'>
+    <Layout title='Homework 2' description='This is the Homework 2 of CIS 114 - JavaScript / Ajax Programming at CSM.'>
       <ComingSoon />
     </Layout>
   )
