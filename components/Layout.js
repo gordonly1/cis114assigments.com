@@ -12,7 +12,9 @@ const Layout = ({ children, title, description }) => {
       </Head>
       <div className='min-h-[84vh]'>
         <Navigation />
-        {children}
+        <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-20">
+          {children}
+        </main>
       </div>
       <Footer />
     </div>
