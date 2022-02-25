@@ -1,7 +1,7 @@
 const Part = ({ children, header }) => {
   return (
-    <div>
-      <p className="mt-10 mb-3 text-lg font-medium leading-6 text-gray-900">
+    <div className="mt-8 border-b pb-10">
+      <p className="mb-3 text-lg font-medium leading-6 text-gray-900">
         {header}
       </p>
       {children}

@@ -50,8 +50,6 @@ const Part1 = () => {
       <div className="flex gap-4">
         <div className="w-40 space-y-4">
           <Input
-            min="1"
-            max="22"
             label="Homework average"
             id="Homework average"
             placeholder="0 to 100"

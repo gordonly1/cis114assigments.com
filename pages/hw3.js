@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
-import ComingSoon from '../components/ComingSoon'
 import Part1 from '../components/Homeworks/Homework3/Part1'
+import Part2 from '../components/Homeworks/Homework3/Part2'
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
         Homework 3
       </h2>
       <Part1 />
+      <Part2 />
     </Layout>
   )
 }
