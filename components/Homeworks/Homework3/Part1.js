@@ -51,21 +51,21 @@ const Part1 = () => {
         <div className="w-40 space-y-4">
           <Input
             label="Homework average"
-            id="Homework average"
+            id="Homework-average"
             placeholder="0 to 100"
             value={input1}
             onChange={(e) => handleChange(e, 1)}
           />
           <Input
             label="Mid-term exam score"
-            id="Mid-term exam score"
+            id="Mid-term-exam-score"
             placeholder="0 to 100"
             value={input2}
             onChange={(e) => handleChange(e, 2)}
           />
           <Input
             label="Final exam score"
-            id="Final exam score"
+            id="Final-exam-score"
             placeholder="0 to 100"
             value={input3}
             onChange={(e) => handleChange(e, 3)}
