@@ -2,6 +2,7 @@ import Layout from '../components/Layout'
 import Part1 from '../components/Homeworks/Homework3/Part1'
 import Part2 from '../components/Homeworks/Homework3/Part2'
 import Part3 from '../components/Homeworks/Homework3/Part3'
+import ExtraCredit from '../components/Homeworks/Homework3/ExtraCredit'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Part1 />
       <Part2 />
       <Part3 />
+      <ExtraCredit />
     </Layout>
   )
 }

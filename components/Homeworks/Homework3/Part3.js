@@ -3,9 +3,9 @@ import Input from '../../Input'
 import Part from '../../Part'
 import Button from '../../Button'
 
-const Part1 = () => {
+const Part3 = () => {
   const [value, setValue] = useState('')
-  const [message, setMessage] = useState('yo')
+  const [message, setMessage] = useState('')
 
   const handleConvertCtoF = () => {
     if (value == '') {
@@ -76,4 +76,4 @@ const Part1 = () => {
   )
 }
 
-export default Part1
+export default Part3
