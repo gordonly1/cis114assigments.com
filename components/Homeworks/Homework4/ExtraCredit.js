@@ -37,7 +37,7 @@ const ExtraCredit = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <Button onClick={handleShowSquare}>Show Square</Button>
+        <Button onClick={handleShowSquare}>Draw Square</Button>
         <Button onClick={handleReset} color="secondary">
           Reset
         </Button>
